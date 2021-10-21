@@ -1,4 +1,4 @@
-import longestPalindrome from "./005-ongestPalindrom.js";
+import longestPalindrome from "./005-longestPalindrom.jss";
 import threeSum from "./015-threeSum.js";
 
 
