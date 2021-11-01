@@ -2,7 +2,7 @@ import longestPalindrome from "./005-longestPalindrom.js";
 import threeSum from "./015-threeSum.js";
 import merge from "./056-mergeIntervals.js";
 import sortColors from "./075-sortColors.js";
-
+import getRow from "./119.PascalIsTriangleII.js";
 
 const main = () => { 
   // 005 最长回文子串
@@ -13,8 +13,10 @@ const main = () => {
   const mergeTest1 = merge([[1,3],[2,6],[8,10],[15,18]])
   // 075  颜色分类
   const sortColorsTest1 = sortColors([2,0,2,1,1,0])
+  // 119 杨辉三角 II
+  const getRowTest1 = getRow(3)
 
-  const test = mergeTest1
+  const test = getRowTest1
   return test
 }
 console.log(main());
