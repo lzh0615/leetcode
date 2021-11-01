@@ -51,7 +51,7 @@ MyHashMap.prototype.remove = function (key) {
  */
 
 
-// leetcode 答案
+// leetcode 参考
 // var MyHashMap = function () {
 //   this.map = {};
 // };
